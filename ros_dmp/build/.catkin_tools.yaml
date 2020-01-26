@@ -1,0 +1,6 @@
+devel_space: /home/dishuuuuu/catkin_dmp/src/ros_dmp/devel
+install: false
+install_space: /home/dishuuuuu/catkin_dmp/src/ros_dmp/install
+profile: default
+source_space: /home/dishuuuuu/catkin_dmp/src/ros_dmp/src
+workspace: /home/dishuuuuu/catkin_dmp/src/ros_dmp
