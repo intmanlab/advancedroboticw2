@@ -9,7 +9,44 @@ Reference : Auke Jan Ijspeert, Jun Nakanishi, Heiko Hoffmann, Peter Pastor, and 
 
 ## Dependencies:
 
-This package has been tested on Ubuntu 16.04, ROS kinetic and python 3.5. The codes depend on following libraries: 
+This package has been tested on Ubuntu 16.04, ROS kinetic and python 3.5. The codes depend on following libraries. We first setupa virtual environment within which we will install all the dependencies. 
+
+* Step 1: Update your repositories
+
+`sudo apt-get update`
+
+* Step 2: Install pip for Python 3
+
+`sudo apt-get install build-essential libssl-dev libffi-dev python-dev`
+`sudo apt install python3-pip`
+
+* Step 3: Use pip to install virtualenv
+
+`sudo pip3 install virtualenv`
+
+* Step 4: Create a virtual environment named venv
+
+`virtualenv -p python3 venv`
+
+* Step 5: Activate the environment 
+
+`source venv/bin/activate`
+
+Now you should see (venv) on your command line appearing before the username. 
+
+* Step 6: Install the essential libraries: 
+
+`pip install pyyaml`
+
+`pip install pyaml`
+
+`pip install catkin_pkg`
+
+`pip install empy`
+
+`pip install rospkg`
+
+With this, we have successfully set up our virtual environment. Now we are ready to install the dependencies. 
 
 * tinker
 
