@@ -58,9 +58,13 @@ With this, we have successfully set up our virtual environment. Now we are ready
 
 * pycairo
 
+`sudo apt install libcairo2-dev`
+
 `pip3 install pycairo`
 
 * pyGObject
+
+`sudo apt install libgirepository1.0-dev`
 
 `pip3 install PyGObject`
 
