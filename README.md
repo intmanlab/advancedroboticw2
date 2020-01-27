@@ -41,7 +41,7 @@ Navigate to the source folder of this workspace from the terminal.
 
 Clone the repository:
 
-`git clone https://github.com/dishakamale/ros_dmp_AR_workshop.git`
+`git clone https://github.com/intmanlab/advancedroboticw2.git`
 
 Go to the root of the workspace and build the package:
 
