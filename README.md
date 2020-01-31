@@ -103,6 +103,8 @@ Go to the root of the workspace and build the package:
 
 `catkin build`
 
+`source devel/setup.bash`
+
 Now please follow the instruction given in the workshop document. The information given below is only to introduce the package but it can be skipped as of now. 
 
 #
