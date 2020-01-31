@@ -46,6 +46,10 @@ Now you should see (venv) on your command line appearing before the username.
 
 `pip install rospkg`
 
+`pip install numpy`
+
+`pip install matplotlib`
+
 With this, we have successfully set up our virtual environment. Now we are ready to install the dependencies. 
 
 * tinker
@@ -68,9 +72,17 @@ With this, we have successfully set up our virtual environment. Now we are ready
 
 `pip3 install PyGObject`
 
+Now we can deactivate the virtual environment. 
 
+`deactivate`
 
 ## How to use the package
+
+Open a new terminal and run the follwing commands. 
+
+`sudo apt-get install python-catkin-tools `
+
+`sudo apt-get install python-scipy`
 
 Create a catkin workspace
 
@@ -88,7 +100,9 @@ Go to the root of the workspace and build the package:
 
 `cd ..`
 
-`catkin build --this`
+`catkin build`
+
+Now please follow the instruction given in the workshop document. The information given below is only to introduce the package but it can be skipped as of now. 
 
 #
 This package provides two services:
